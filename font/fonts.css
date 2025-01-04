@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Gilroy";
+    src: local("Gilroy"),
+    local("Gilroy-Regular"),
+    url("Gilroy-ExtraBold.woff2") format("woff2"),
+    url("Gilroy-ExtraBold.woff") format("woff"),
+    url("Gilroy-ExtraBold.svg") format("svg");
+    url("Gilroy-ExtraBold.otf") format("otf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Manrope";
+    src: local("Manrope Regular"),
+    local("Manrope-Regular"),
+    url("Manrope-Regular.woff2") format("woff2"),
+    url("Manrope-Regular.woff") format("woff"),
+    url("Manrope-Regular.svg") format("svg");
+    url("Manrope-Regular.ttf") format("ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Manrope";
+    src: local("Manrope Bold"),
+    local("Manrope-Bold"),
+    url("Manrope-Bold.woff2") format("woff2"),
+    url("Manrope-Bold.woff") format("woff"),
+    url("Manrope-Bold.svg") format("svg");
+url("Manrope-Bold.ttf") format("ttf");
+    font-weight: Bold;
+}
