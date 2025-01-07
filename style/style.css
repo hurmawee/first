@@ -1,0 +1,109 @@
+
+:root{
+    --main-color:#4360F6;
+}
+.container{
+    margin-inline: 4%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    font: 600 1.4em Manrope;
+    margin-inline: auto;
+    max-height: 10em;
+    margin-top: 1em;
+
+}
+
+.header__text{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+header .header__logo{
+    font: Bold 1.65em Manrope;
+
+}
+header nav{
+    width: 50%;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10%;
+}
+header nav ul a{
+
+    text-decoration: none;
+    color: black;
+    line-height: 3;
+}
+.buttons{
+    display: flex;
+    justify-content: end;
+    width: 30%;
+}
+.buttons button{
+    height: 100%;
+    background-color: var(--main-color);
+    color: white;
+    width: 42%;
+
+}
+.buttons button:first-child{
+    background: none;
+    color: black;
+}
+
+.firstScreen{
+    display: flex;
+}
+.firstScreen__information *{
+    margin-bottom: 3%;
+}
+.firstScreen__information{
+    width: 35%;
+}
+.block-get h1{
+    margin-top: 20%;
+    font: 5em Gilroy;
+}
+.block-get p{
+    font: 1.5em Manrope;
+}
+.block-get button{
+    padding: 0.7em 1.2em;
+    font: 1.3em Manrope;
+    background-color: var(--main-color);
+    color: white;
+}
+.information-image-people:not(:first-child){
+    position: relative;
+    margin-left: -10px;
+}
+.information-fact{
+    font: 1em Manrope ;
+}
+.firstScreen__image{
+    position: relative;
+    right: 0;
+
+}
+.whoUseUs{
+    display: flex;
+    flex-direction: column;
+}
+.whoUseUs p{
+    margin: auto;
+    margin-bottom: 50px;
+    font: 1.2em Manrope;
+
+}
+.whoUseUs__collection-images{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+
